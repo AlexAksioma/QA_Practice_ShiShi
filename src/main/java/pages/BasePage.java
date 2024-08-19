@@ -23,6 +23,12 @@ public class BasePage {
 
     @FindBy(xpath = "//i[@class='fa fa-facebook']/..")
     WebElement btnFacebookHeader;
+    @FindBy(xpath = "//i[@class='fa fa-youtube-play']/..")
+    WebElement btnYoutubeHeader;
+    @FindBy(xpath = "//i[@class='fa fa-instagram']/..")
+    WebElement btnInstagramHeader;
+    @FindBy(xpath = "//i[@class='fa fa-telegram']/..")
+    WebElement btnTelegramHeader;
 
     @FindBy(xpath = "//a[text()='Вход']")
     static WebElement btnLoginHeader;
