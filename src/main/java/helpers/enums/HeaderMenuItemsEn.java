@@ -16,7 +16,8 @@ public enum HeaderMenuItemsEn {
     HeaderMenuItemsEn(String locator) {
         this.locator = locator;
     }
-    public String getLocator(){
+
+    public String getLocator() {
         return locator;
     }
 }

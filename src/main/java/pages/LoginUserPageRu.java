@@ -66,6 +66,7 @@ public class LoginUserPageRu extends BasePage {
             return false;
         }
     }
+
     public void checkPolicyXY() {
         if (!rememberCheckbox.isSelected()) {
             Rectangle rect = rememberCheckboxByCss.getRect();
@@ -75,6 +76,7 @@ public class LoginUserPageRu extends BasePage {
             actions.moveToElement(rememberCheckboxByCss, xOffSet, 0).click().release().perform();
         }
     }
+
     public void clickForgotPasswordLink() {
         clickWait(forgotPasswordLink, 10);
     }
@@ -83,10 +85,12 @@ public class LoginUserPageRu extends BasePage {
         String email = PropertiesReader.getProperty("data.properties", "email");
         typeForgotPassword.sendKeys(email);
     }
+
     public void typeForgotPasswordFormUnregisteredEmail() {
         String email = PropertiesReader.getProperty("data.properties", "unregisteredEmail");
         typeForgotPassword.sendKeys(email);
     }
+
     public void typeForgotPasswordFormWithoutEmail() {
         String email = PropertiesReader.getProperty("data.properties", "withoutEmail");
         typeForgotPassword.sendKeys(email);
