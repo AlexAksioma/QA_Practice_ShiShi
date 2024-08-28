@@ -5,30 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a8c2c1-dc0f-472a-8494-2febd3339468" name="Changes" comment="add CheckBox Positive Test, check Policy XY,Forgot Password Test,">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests_ui/AboutTestEn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/PropertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/PropertiesReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/helpers/enums/HeaderMenuItemsEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/enums/HeaderMenuItemsEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/enums/HeaderMenuItemsRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/enums/HeaderMenuItemsRu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/AboutPageEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AboutPageEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AboutUsPageRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AboutUsPageRu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ContactsPageEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ContactsPageEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ContactsPageRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ContactsPageRu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CreateUserPageRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CreateUserPageRu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EventsPageEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/EventsPageEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EventsPageRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/EventsPageRu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePageEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePageEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePageRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePageRu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginUserPageRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginUserPageRu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PartnersPageEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PartnersPageEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PhotoPageEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PhotoPageEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PhotoPageRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PhotoPageRu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/TeamPageEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/TeamPageEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/VideoPageEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/VideoPageEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/VideoPageRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/VideoPageRu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests_ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests_ui/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +65,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AboutTestEn.checkDonationLink.executor": "Run",
+    "TestNG.AboutTestEn.openAboutPageEn.executor": "Run",
     "TestNG.LoginTestsRu.ForgotPasswordNegativeTest.executor": "Run",
     "TestNG.LoginTestsRu.ForgotPasswordTest.executor": "Run",
     "TestNG.LoginTestsRu.ForgotPasswordWithoutEmailNegativeTest.executor": "Run",
@@ -110,9 +97,9 @@
       <recent name="helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTestsRu.loginPositiveTest">
-    <configuration name="LoginTestsRu" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA_Practice_ShiShi" />
+  <component name="RunManager" selected="TestNG.AboutTestEn.checkDonationLink">
+    <configuration name="AboutTestEn.checkDonationLink" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_Practice_ShiShiNew" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests_ui.*" />
@@ -120,16 +107,17 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests_ui" />
-      <option name="MAIN_CLASS_NAME" value="tests_ui.LoginTestsRu" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="tests_ui.AboutTestEn" />
+      <option name="METHOD_NAME" value="checkDonationLink" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTestsRu.ForgotPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA_Practice_ShiShi" />
+    <configuration name="AboutTestEn.openAboutPageEn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_Practice_ShiShiNew" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests_ui.*" />
@@ -137,8 +125,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests_ui" />
-      <option name="MAIN_CLASS_NAME" value="tests_ui.LoginTestsRu" />
-      <option name="METHOD_NAME" value="ForgotPasswordTest" />
+      <option name="MAIN_CLASS_NAME" value="tests_ui.AboutTestEn" />
+      <option name="METHOD_NAME" value="openAboutPageEn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -202,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AboutTestEn.checkDonationLink" />
+        <item itemvalue="TestNG.AboutTestEn.openAboutPageEn" />
         <item itemvalue="TestNG.LoginTestsRu.loginPositiveTest" />
         <item itemvalue="TestNG.LoginTestsRu.WithoutPasswordLoginTest" />
         <item itemvalue="TestNG.LoginTestsRu.ForgotPasswordWithoutEmailNegativeTest" />
-        <item itemvalue="TestNG.LoginTestsRu.ForgotPasswordTest" />
-        <item itemvalue="TestNG.LoginTestsRu" />
       </list>
     </recent_temporary>
   </component>

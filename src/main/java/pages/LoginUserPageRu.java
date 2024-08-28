@@ -22,6 +22,7 @@ public class LoginUserPageRu extends BasePage {
 
     @FindBy(xpath = "//input[@id='identity']")
     WebElement fieldEmail;
+
     @FindBy(xpath = "//input[@id='password']")
     WebElement fieldPassword;
 
@@ -30,18 +31,22 @@ public class LoginUserPageRu extends BasePage {
 
     @FindBy(xpath = "//span[contains(text(),'Мои текущие заказы')]")
     WebElement ordersTextLocator;
+
     @FindBy(xpath = "//p[contains(text(),'Логин/пароль не верен')]")
     WebElement errorMessage;
 
     @FindBy(id = "remember")
     WebElement rememberCheckbox;
+
     @FindBy(css = "#remember")
     WebElement rememberCheckboxByCss;
 
     @FindBy(xpath = "//a[contains(text(),'Забыли свой пароль?')]")
     WebElement forgotPasswordLink;
+
     @FindBy(xpath = "//input[@id='identity']")
     WebElement typeForgotPassword;
+
     @FindBy(xpath = " //input[@name='submit']")
     WebElement sendButton;
 

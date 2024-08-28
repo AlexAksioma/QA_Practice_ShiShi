@@ -24,6 +24,7 @@ public class BasePage {
 
     @FindBy(xpath = "//a[text()='Вход']")
     static WebElement btnLoginHeader;
+
     @FindBy(xpath = "//a[text()='Регистрация']")
     static WebElement btnRegistrationHeader;
 
