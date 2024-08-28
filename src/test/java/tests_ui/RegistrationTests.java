@@ -10,6 +10,7 @@ import static pages.BasePage.clickBtnRegistrationHeader;
 import static pages.BasePage.pause;
 
 public class RegistrationTests extends ApplicationManager {
+
     CreateUserPageRu createUserPageRu;
 
     @BeforeMethod

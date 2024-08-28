@@ -12,8 +12,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static helpers.enums.HeaderMenuItemsEn.*;
-
 public class BasePage {
     protected static WebDriver driver;
 
@@ -26,6 +24,7 @@ public class BasePage {
 
     @FindBy(xpath = "//a[text()='Вход']")
     static WebElement btnLoginHeader;
+
     @FindBy(xpath = "//a[text()='Регистрация']")
     static WebElement btnRegistrationHeader;
 
@@ -90,6 +89,7 @@ public class BasePage {
                 throw new IllegalArgumentException("invalid parametr headerMenuItemsRu");
         }
     }
+
     public static void pause(int time) {
         try {
             Thread.sleep(time * 1000L);
@@ -98,11 +98,11 @@ public class BasePage {
         }
     }
 
-    public void clickWait(WebElement element, int time){
+    public void clickWait(WebElement element, int time) {
         try {
             new WebDriverWait(driver, Duration.ofSeconds(time))
                     .until(ExpectedConditions.elementToBeClickable(element)).click();
-        }catch (TimeoutException e){
+        } catch (TimeoutException e) {
             e.printStackTrace();
         }
     }
@@ -112,7 +112,7 @@ public class BasePage {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(time));
             return wait.until(ExpectedConditions.textToBePresentInElement(element, text));
 
-        }catch (TimeoutException e){
+        } catch (TimeoutException e) {
             return false;
         }
     }

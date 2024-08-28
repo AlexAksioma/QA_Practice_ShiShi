@@ -22,6 +22,7 @@ public class LoginUserPageRu extends BasePage {
 
     @FindBy(xpath = "//input[@id='identity']")
     WebElement fieldEmail;
+
     @FindBy(xpath = "//input[@id='password']")
     WebElement fieldPassword;
 
@@ -30,18 +31,22 @@ public class LoginUserPageRu extends BasePage {
 
     @FindBy(xpath = "//span[contains(text(),'Мои текущие заказы')]")
     WebElement ordersTextLocator;
+
     @FindBy(xpath = "//p[contains(text(),'Логин/пароль не верен')]")
     WebElement errorMessage;
 
     @FindBy(id = "remember")
     WebElement rememberCheckbox;
+
     @FindBy(css = "#remember")
     WebElement rememberCheckboxByCss;
 
     @FindBy(xpath = "//a[contains(text(),'Забыли свой пароль?')]")
     WebElement forgotPasswordLink;
+
     @FindBy(xpath = "//input[@id='identity']")
     WebElement typeForgotPassword;
+
     @FindBy(xpath = " //input[@name='submit']")
     WebElement sendButton;
 
@@ -66,6 +71,7 @@ public class LoginUserPageRu extends BasePage {
             return false;
         }
     }
+
     public void checkPolicyXY() {
         if (!rememberCheckbox.isSelected()) {
             Rectangle rect = rememberCheckboxByCss.getRect();
@@ -75,6 +81,7 @@ public class LoginUserPageRu extends BasePage {
             actions.moveToElement(rememberCheckboxByCss, xOffSet, 0).click().release().perform();
         }
     }
+
     public void clickForgotPasswordLink() {
         clickWait(forgotPasswordLink, 10);
     }
@@ -83,10 +90,12 @@ public class LoginUserPageRu extends BasePage {
         String email = PropertiesReader.getProperty("data.properties", "email");
         typeForgotPassword.sendKeys(email);
     }
+
     public void typeForgotPasswordFormUnregisteredEmail() {
         String email = PropertiesReader.getProperty("data.properties", "unregisteredEmail");
         typeForgotPassword.sendKeys(email);
     }
+
     public void typeForgotPasswordFormWithoutEmail() {
         String email = PropertiesReader.getProperty("data.properties", "withoutEmail");
         typeForgotPassword.sendKeys(email);
