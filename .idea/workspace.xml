@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a8c2c1-dc0f-472a-8494-2febd3339468" name="Changes" comment="add CheckBox Positive Test, check Policy XY,Forgot Password Test,">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests_ui/AboutTestEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/enums/HeaderMenuItemsEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/enums/HeaderMenuItemsEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AboutPageEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AboutPageEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginUserPageRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginUserPageRu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests_ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests_ui/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +76,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.32528734",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -191,10 +183,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AboutTestEn.checkDonationLink" />
-        <item itemvalue="TestNG.AboutTestEn.openAboutPageEn" />
         <item itemvalue="TestNG.LoginTestsRu.loginPositiveTest" />
         <item itemvalue="TestNG.LoginTestsRu.WithoutPasswordLoginTest" />
         <item itemvalue="TestNG.LoginTestsRu.ForgotPasswordWithoutEmailNegativeTest" />
+        <item itemvalue="TestNG.AboutTestEn.openAboutPageEn" />
       </list>
     </recent_temporary>
   </component>

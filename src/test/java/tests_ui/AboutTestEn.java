@@ -29,6 +29,7 @@ public class AboutTestEn extends ApplicationManager {
     public void checkDonationLink() {
         aboutPageEn.clickOnDonateLink();
         String actualDonateUrl = getDriver().getCurrentUrl();
+        System.out.println("actualDonateUrl : " + actualDonateUrl);
         Assert.assertEquals(actualDonateUrl, expectedDonateUrl);
     }
 
