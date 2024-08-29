@@ -13,10 +13,10 @@ public class PhotoPageEn extends BasePage{
     }
 
     @FindBy(xpath = "//button[@class='sk-facebook-photo-albums-load-more-posts']")
-    WebElement downLoadPhoto;
+    WebElement downLoadMore;
 
-    public PhotoPageEn clickDownLoadPhoto() {
-        downLoadPhoto.click();
+    public PhotoPageEn clickDownLoadMore() {
+        downLoadMore.click();
         return new PhotoPageEn(driver);
     }
 }

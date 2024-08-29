@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92a8c2c1-dc0f-472a-8494-2febd3339468" name="Changes" comment="added ru classes">
+    <list default="true" id="92a8c2c1-dc0f-472a-8494-2febd3339468" name="Changes" comment="Add test to PhotoTestEn &amp; PhotoTestRu">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PhotoPageEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PhotoPageEn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PhotoPageRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PhotoPageRu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests_ui/PhotoTestEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests_ui/PhotoTestEn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests_ui/PhotoTestRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests_ui/PhotoTestRu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +46,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/QA_Auto_Projects/ShiShi/QA_Practice_ShiShi",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "TestNG.PhotoTestEn.startTest.executor": "Run",
+    "TestNG.PhotoTestEn.testDownloadPhoto.executor": "Run",
+    "TestNG.PhotoTestRu.executor": "Run",
+    "TestNG.PhotoTestRu.ifFacebookOpen.executor": "Run",
+    "TestNG.PhotoTestRu.photoAlbumsView.executor": "Run",
+    "TestNG.PhotoTestRu.startTest.executor": "Run",
+    "TestNG.PhotoTestRu.testAllPhotoAlbumsOnPage.executor": "Run",
+    "TestNG.PhotoTestRu.testDownloadPhoto.executor": "Run",
+    "git-widget-placeholder": "branch__n-far",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Dell/Documents/TEL_RAN/AUTOMATISATION/PROJECTS/QA_Practice_ShiShi",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,9 +73,9 @@
       <recent name="helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTestsRu.startPositiveTest">
-    <configuration name="EventsTestsEn.startTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA_Practice_ShiShiNew" />
+  <component name="RunManager" selected="TestNG.PhotoTestRu.ifFacebookOpen">
+    <configuration name="PhotoTestRu.ifFacebookOpen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_Practice_ShiShi" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests_ui.*" />
@@ -66,7 +83,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests_ui" />
-      <option name="MAIN_CLASS_NAME" value="tests_ui.EventsTestsEn" />
+      <option name="MAIN_CLASS_NAME" value="tests_ui.PhotoTestRu" />
+      <option name="METHOD_NAME" value="ifFacebookOpen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhotoTestRu.photoAlbumsView" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_Practice_ShiShi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests_ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests_ui" />
+      <option name="MAIN_CLASS_NAME" value="tests_ui.PhotoTestRu" />
+      <option name="METHOD_NAME" value="photoAlbumsView" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhotoTestRu.startTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_Practice_ShiShi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests_ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests_ui" />
+      <option name="MAIN_CLASS_NAME" value="tests_ui.PhotoTestRu" />
       <option name="METHOD_NAME" value="startTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -75,11 +128,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTestsRu.startPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA_Practice_ShiShiNew" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests_ui.LoginTestsRu" />
-      <option name="METHOD_NAME" value="startPositiveTest" />
+    <configuration name="PhotoTestRu.testAllPhotoAlbumsOnPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_Practice_ShiShi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests_ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests_ui" />
+      <option name="MAIN_CLASS_NAME" value="tests_ui.PhotoTestRu" />
+      <option name="METHOD_NAME" value="testAllPhotoAlbumsOnPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhotoTestRu.testDownloadPhoto" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_Practice_ShiShi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests_ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests_ui" />
+      <option name="MAIN_CLASS_NAME" value="tests_ui.PhotoTestRu" />
+      <option name="METHOD_NAME" value="testDownloadPhoto" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -89,8 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTestsRu.startPositiveTest" />
-        <item itemvalue="TestNG.EventsTestsEn.startTest" />
+        <item itemvalue="TestNG.PhotoTestRu.ifFacebookOpen" />
+        <item itemvalue="TestNG.PhotoTestRu.startTest" />
+        <item itemvalue="TestNG.PhotoTestRu.testAllPhotoAlbumsOnPage" />
+        <item itemvalue="TestNG.PhotoTestRu.testDownloadPhoto" />
+        <item itemvalue="TestNG.PhotoTestRu.photoAlbumsView" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +215,41 @@
       <option name="project" value="LOCAL" />
       <updated>1723566956017</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added ru classes">
+      <option name="closed" value="true" />
+      <created>1724076891459</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724076891460</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add test to PhotoTestEn &amp; PhotoTestRu">
+      <option name="closed" value="true" />
+      <created>1724323449421</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724323449421</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="added enum en" />
     <MESSAGE value="added ru classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ru classes" />
+    <MESSAGE value="Add test to PhotoTestEn &amp; PhotoTestRu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test to PhotoTestEn &amp; PhotoTestRu" />
   </component>
 </project>

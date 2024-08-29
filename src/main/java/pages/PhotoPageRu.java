@@ -13,10 +13,33 @@ public class PhotoPageRu extends BasePage{
     }
 
     @FindBy(xpath = "//button[@class='sk-facebook-photo-albums-load-more-posts']")
-        WebElement downLoadPhoto;
+        public WebElement downLoadMore;
 
-    public PhotoPageRu clickDownLoadPhoto() {
-        downLoadPhoto.click();
+    @FindBy(xpath ="//div[@class='sk-facebook-photo-albums-post-img']")
+    public WebElement photoAlbum1;
+    @FindBy(xpath ="//div[@class='sk-facebook-photos-post-hover display-none']")
+    public WebElement firstPhotoOfAlbum1;
+
+    @FindBy(xpath="//button[@title='Close (Esc)']")
+    public WebElement btnClosePhoto;
+    @FindBy(xpath = "//button[@title='Previous (Left arrow key)']")
+    public WebElement moveLeft;
+    @FindBy(xpath = "//button[@title='Next (Right arrow key)']")
+    public WebElement moveRight;
+    @FindBy(xpath = "//a[text()='Посмотреть в фейсбуке']")
+    public WebElement goToFBfromPhotoPageRu;
+    @FindBy(xpath = "//*[text()='See more on Facebook']")
+    public WebElement facebookPage;
+
+
+
+    public PhotoPageRu clickDownLoadMore() {
+        downLoadMore.click();
+        return new PhotoPageRu(driver);
+    }
+
+    public PhotoPageRu clickPhotoAlbum() {
+        photoAlbum1.click();
         return new PhotoPageRu(driver);
     }
 }

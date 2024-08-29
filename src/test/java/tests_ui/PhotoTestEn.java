@@ -23,7 +23,7 @@ public void testDownloadPhoto(){
         HomePageEn homePageEn = new HomePageEn(getDriver());
         PhotoPageEn photoPageEn = clickButtonsOnHeaderEn(HeaderMenuItemsEn.PHOTO);
         pause(5);
-        photoPageEn.clickDownLoadPhoto();
+        photoPageEn.clickDownLoadMore();
 
 }
 
