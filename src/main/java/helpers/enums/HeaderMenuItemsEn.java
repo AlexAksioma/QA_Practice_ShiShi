@@ -10,7 +10,7 @@ public enum HeaderMenuItemsEn {
     OUR_PARTNERS("//ul[@class='vertical medium-horizontal menu align-right show-for-medium show-for-large']/li[4]/a[@title='Our Partners']"),
     PHOTO("//ul[@class='vertical medium-horizontal menu align-right show-for-medium show-for-large']/li[5]/a[@title='Photo']"),
     VIDEO("//ul[@class='vertical medium-horizontal menu align-right show-for-medium show-for-large']/li[6]/a[@title='Video']"),
-    CONTACT_US("//ul[@class='vertical medium-horizontal menu align-right show-for-medium show-for-large']/li[Last()]/a[@title='Contact Us']");
+    CONTACT_US("//ul[@class='vertical medium-horizontal menu align-right show-for-medium show-for-large']/li[7]/a[@title='Contact Us']");
     private final String locator;
 
     HeaderMenuItemsEn(String locator) {
