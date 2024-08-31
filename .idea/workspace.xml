@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92a8c2c1-dc0f-472a-8494-2febd3339468" name="Changes" comment="Add test to PhotoTestEn &amp; PhotoTestRu">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="92a8c2c1-dc0f-472a-8494-2febd3339468" name="Changes" comment="Add test to PhotoTestRu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PhotoPageEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PhotoPageEn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PhotoPageRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PhotoPageRu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests_ui/PhotoTestEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests_ui/PhotoTestEn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests_ui/PhotoTestRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests_ui/PhotoTestRu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +53,7 @@
     "TestNG.PhotoTestRu.testDownloadPhoto.executor": "Run",
     "git-widget-placeholder": "branch__n-far",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Dell/Documents/TEL_RAN/AUTOMATISATION/PROJECTS/QA_Practice_ShiShi",
+    "last_opened_file_path": "C:/Users/Dell/Documents/TEL_RAN/AUTOMATISATION/PROJECTS/QA_Test_Practice",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -73,7 +70,7 @@
       <recent name="helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PhotoTestRu.ifFacebookOpen">
+  <component name="RunManager" selected="TestNG.PhotoTestRu.photoAlbumsView">
     <configuration name="PhotoTestRu.ifFacebookOpen" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA_Practice_ShiShi" />
       <extension name="coverage">
@@ -166,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PhotoTestRu.photoAlbumsView" />
         <item itemvalue="TestNG.PhotoTestRu.ifFacebookOpen" />
-        <item itemvalue="TestNG.PhotoTestRu.startTest" />
         <item itemvalue="TestNG.PhotoTestRu.testAllPhotoAlbumsOnPage" />
         <item itemvalue="TestNG.PhotoTestRu.testDownloadPhoto" />
-        <item itemvalue="TestNG.PhotoTestRu.photoAlbumsView" />
+        <item itemvalue="TestNG.PhotoTestRu.startTest" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724323449421</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add test to PhotoTestRu">
+      <option name="closed" value="true" />
+      <created>1724939644330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724939644330</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +255,7 @@
     <MESSAGE value="added enum en" />
     <MESSAGE value="added ru classes" />
     <MESSAGE value="Add test to PhotoTestEn &amp; PhotoTestRu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test to PhotoTestEn &amp; PhotoTestRu" />
+    <MESSAGE value="Add test to PhotoTestRu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test to PhotoTestRu" />
   </component>
 </project>
