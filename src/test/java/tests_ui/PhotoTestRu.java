@@ -15,7 +15,9 @@ import org.testng.annotations.Test;
 import pages.*;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import static pages.BasePage.*;
 
@@ -35,14 +37,12 @@ public class PhotoTestRu extends ApplicationManager {
     WebElement moveRight;
     @FindBy(xpath = "//figure")
     WebElement photoSrc;
-@FindBy(xpath = "//i[@class='fa fa-facebook-official']")
-WebElement openFacebookFromPhoto;
+    @FindBy(xpath = "//i[@class='fa fa-facebook-official']")
+    WebElement openFacebookFromPhoto;
     @FindBy(xpath = "//h1[@class='star']")
     WebElement startPhotoPageRu;
     @FindBy(xpath = "//a[text()='Посмотреть в фейсбуке']\"")
     WebElement goToFBfromPhotoPageRu;
-
-
 
 
     @Test
@@ -113,27 +113,41 @@ WebElement openFacebookFromPhoto;
        // 4 click on facebook logo on photo=> web-site facebook open
        // 5 check if url is equal URLfacebookPage
        // OR is display Element containsText "See more on Facebook"
-       // 6 close facebook window
+       // 6 close facebook window and turn back toPhotoPage
 
-//    Expected :facebook.com/photo/?fbid=6295195583825473&set=a.6295172883827743
-//    Actual   :https://shishi.co.il/pages/2
-    //???? How to switch on next page
+    HomePageRu homePageRu = new HomePageRu(getDriver());
+    PhotoPageRu photoPageRu = clickButtonsOnHeaderRu(HeaderMenuItemsRu.PHOTO);
+    pause(3);
+    try{
+        photoPageRu.photoAlbum1.click();
+        pause(3);
+        photoPageRu.firstPhotoOfAlbum1.click();
+        pause(3);
+        String photoPageRuWindow = getDriver().getWindowHandle();
+        photoPageRu.goToFBfromPhotoPageRu.click();
+        pause(3);
 
-HomePageRu homePageRu = new HomePageRu(getDriver());
-PhotoPageRu photoPageRu = clickButtonsOnHeaderRu(HeaderMenuItemsRu.PHOTO);
-pause(5);
-try{
-    photoPageRu.photoAlbum1.click();
-    photoPageRu.firstPhotoOfAlbum1.click();
-    photoPageRu.goToFBfromPhotoPageRu.click();
-    String curURL = getDriver().getCurrentUrl();
-    System.out.println(curURL);
-    Assert.assertEquals(curURL,"facebook.com/photo/?fbid=6295195583825473&set=a.6295172883827743");
+        Set<String> currWindows = getDriver().getWindowHandles();
+        String facebookWindow = null;
+        for(String winHandle: currWindows) {
+        if (!winHandle.equals(photoPageRuWindow)) {
+            facebookWindow = winHandle;
+            break;
+        }
+        }
+        getDriver().switchTo().window(facebookWindow);
+        String curURL = getDriver().getCurrentUrl();
+        Assert.assertEquals(curURL,"https://www.facebook.com/photo/?fbid=6295195583825473&set=a.6295172883827743");
+        getDriver().close();
+        getDriver().switchTo().window(photoPageRuWindow);
 
-}catch (TimeoutException e){
+    }catch (TimeoutException e){
     e.printStackTrace();
-}
-
    }
+
+    }
+
+
+
 
 }
